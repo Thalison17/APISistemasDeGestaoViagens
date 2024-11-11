@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using APISistemaGestaoViagens.Model.Entities;
 using APISistemaGestaoViagens.Repository.Interfaces;
+using APISistemaGestaoViagens.Model.DTOs;
 
 namespace APISistemaGestaoViagens.Controllers;
 
@@ -18,18 +19,48 @@ public class ReservaController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Reserva>>> GetAll()
+    public async Task<ActionResult<IEnumerable<ReservaDTO>>> GetAll()
     {
-        var reservas = await _repository.GetAllAsync();
-        return Ok(reservas);
+        try
+        {
+            var reservas = await _repository.GetAllAsync();
+            var reservasDto = reservas.Select(r => new ReservaDTO
+            {
+                ReservaId = r.ReservaId,
+                DataReserva = r.DataReserva,
+                StatusPagamento = r.StatusPagamento,
+                MetodoPagamento = r.MetodoPagamento
+            });
+            return Ok(reservasDto);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao obter reservas: {ex.Message}");
+        }
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Reserva>> GetById(int id)
+    public async Task<ActionResult<ReservaDTO>> GetById(int id)
     {
-        var reserva = await _repository.GetByIdAsync(id);
-        if (reserva == null) return NotFound();
-        return Ok(reserva);
+        try
+        {
+            var reserva = await _repository.GetByIdAsync(id);
+            if (reserva == null) return NotFound("Reserva não encontrada.");
+
+            var reservaDto = new ReservaDTO
+            {
+                ReservaId = reserva.ReservaId,
+                DataReserva = reserva.DataReserva,
+                StatusPagamento = reserva.StatusPagamento,
+                MetodoPagamento = reserva.MetodoPagamento
+            };
+
+            return Ok(reservaDto);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao obter reserva: {ex.Message}");
+        }
     }
 
     [HttpPost]

@@ -1,7 +1,7 @@
-﻿namespace APISistemaGestaoViagens.Repository.Interfaces;
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+
+namespace APISistemaGestaoViagens.Repository.Interfaces;
 
 public interface IGenericRepository<T> where T : class
 {

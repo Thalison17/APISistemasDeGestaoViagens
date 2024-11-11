@@ -36,8 +36,18 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public async Task UpdateAsync(T entity)
     {
-        _dbSet.Update(entity);
-        await _context.SaveChangesAsync();
+        using var transaction = await _context.Database.BeginTransactionAsync();
+        try
+        {
+            _dbSet.Update(entity);
+            await _context.SaveChangesAsync();
+            await transaction.CommitAsync();
+        }
+        catch
+        {
+            await transaction.RollbackAsync();
+            throw;
+        }
     }
 
     public async Task DeleteAsync(int id)

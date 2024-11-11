@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using APISistemaGestaoViagens.Model.Entities;
 using APISistemaGestaoViagens.Repository.Interfaces;
+using APISistemaGestaoViagens.Model.DTOs;
 
 namespace APISistemaGestaoViagens.Controllers;
 
@@ -18,18 +19,48 @@ public class DestinoController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Destino>>> GetAll()
+    public async Task<ActionResult<IEnumerable<DestinoDTO>>> GetAll()
     {
-        var destinos = await _repository.GetAllAsync();
-        return Ok(destinos);
+        try
+        {
+            var destinos = await _repository.GetAllAsync();
+            var destinosDto = destinos.Select(d => new DestinoDTO
+            {
+                DestinoId = d.DestinoId,
+                Localizacao = d.Localizacao,
+                Pais = d.Pais,
+                PrecoPorDia = d.precoPorDia
+            });
+            return Ok(destinosDto);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao obter destinos: {ex.Message}");
+        }
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Destino>> GetById(int id)
+    public async Task<ActionResult<DestinoDTO>> GetById(int id)
     {
-        var destino = await _repository.GetByIdAsync(id);
-        if (destino == null) return NotFound();
-        return Ok(destino);
+        try
+        {
+            var destino = await _repository.GetByIdAsync(id);
+            if (destino == null) return NotFound("Destino não encontrado.");
+
+            var destinoDto = new DestinoDTO
+            {
+                DestinoId = destino.DestinoId,
+                Localizacao = destino.Localizacao,
+                Pais = destino.Pais,
+                PrecoPorDia = destino.precoPorDia
+            };
+
+            return Ok(destinoDto);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao obter destino: {ex.Message}");
+        }
     }
 
     [HttpPost]

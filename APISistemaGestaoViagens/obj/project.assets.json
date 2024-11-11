@@ -59,6 +59,24 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-rc.2.24474.1": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.InMemory/9.0.0-rc.2.24474.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0-rc.2.24474.1",
+          "Microsoft.Extensions.Caching.Memory": "9.0.0-rc.2.24473.5",
+          "Microsoft.Extensions.Logging": "9.0.0-rc.2.24473.5"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -384,6 +402,21 @@
         "docs/PACKAGE.md",
         "microsoft.entityframeworkcore.analyzers.9.0.0-rc.2.24474.1.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/9.0.0-rc.2.24474.1": {
+      "sha512": "AA72PEsZhghAgNLYc2KVNni//taPUvy16wP7ZdsFd8FCjSLTwXalctj9VBWfe6WqOpxneP7JPCrwFjcXxRoQfg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/9.0.0-rc.2.24474.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.9.0.0-rc.2.24474.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -1039,6 +1072,7 @@
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Microsoft.EntityFrameworkCore >= 9.0.0-rc.2.24474.1",
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0-rc.2.24474.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1089,6 +1123,10 @@
             "version": "[8.0.8, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.0-rc.2.24474.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[9.0.0-rc.2.24474.1, )"
           },
