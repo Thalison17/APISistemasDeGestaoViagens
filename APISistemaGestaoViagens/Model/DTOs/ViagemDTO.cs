@@ -1,4 +1,4 @@
-﻿namespace APISistemaGestaoViagens.Model.DTOs;
+namespace APISistemaGestaoViagens.Model.DTOs;
 
 public class ViagemDTO
 {
@@ -8,5 +8,4 @@ public class ViagemDTO
     public DateTime DataPartida { get; set; }
     public DateTime DataRetorno { get; set; }
     public decimal CustoTotal { get; set; }
-    public string Status { get; set; }
 }
