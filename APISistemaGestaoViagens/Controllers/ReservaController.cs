@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using APISistemaGestaoViagens.Model.Entities;
-using APISistemaGestaoViagens.Repository.Interfaces;
 using APISistemaGestaoViagens.Model.DTOs;
+using APISistemaGestaoViagens.Repository.Interfaces;
 
 namespace APISistemaGestaoViagens.Controllers;
 
@@ -21,59 +22,87 @@ public class ReservaController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<ReservaDTO>>> GetAll()
     {
-        try
+        var reservas = await _repository.GetAllAsync();
+        var reservasDto = reservas.Select(r => new ReservaDTO
         {
-            var reservas = await _repository.GetAllAsync();
-            var reservasDto = reservas.Select(r => new ReservaDTO
-            {
-                ReservaId = r.ReservaId,
-                DataReserva = r.DataReserva,
-                StatusPagamento = r.StatusPagamento,
-                MetodoPagamento = r.MetodoPagamento
-            });
-            return Ok(reservasDto);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, $"Erro ao obter reservas: {ex.Message}");
-        }
+            ReservaId = r.ReservaId,
+            ClienteId = r.ClienteId,
+            ViagemId = r.ViagemId,
+            DataReserva = r.DataReserva,
+            StatusPagamento = r.StatusPagamento,
+            MetodoPagamento = r.MetodoPagamento
+        });
+        return Ok(reservasDto);
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<ReservaDTO>> GetById(int id)
     {
-        try
-        {
-            var reserva = await _repository.GetByIdAsync(id);
-            if (reserva == null) return NotFound("Reserva não encontrada.");
+        var reserva = await _repository.GetByIdAsync(id);
+        if (reserva == null) return NotFound("Reserva não encontrada.");
 
-            var reservaDto = new ReservaDTO
-            {
-                ReservaId = reserva.ReservaId,
-                DataReserva = reserva.DataReserva,
-                StatusPagamento = reserva.StatusPagamento,
-                MetodoPagamento = reserva.MetodoPagamento
-            };
-
-            return Ok(reservaDto);
-        }
-        catch (Exception ex)
+        var reservaDto = new ReservaDTO
         {
-            return StatusCode(500, $"Erro ao obter reserva: {ex.Message}");
-        }
+            ReservaId = reserva.ReservaId,
+            ClienteId = reserva.ClienteId,
+            ViagemId = reserva.ViagemId,
+            DataReserva = reserva.DataReserva,
+            StatusPagamento = reserva.StatusPagamento,
+            MetodoPagamento = reserva.MetodoPagamento
+        };
+
+        return Ok(reservaDto);
     }
 
     [HttpPost]
-    public async Task<ActionResult> Create(Reserva reserva)
+    public async Task<ActionResult> Create(ReservaDTO reservaDto)
     {
-        await _repository.AddAsync(reserva);
-        return CreatedAtAction(nameof(GetById), new { id = reserva.ReservaId }, reserva);
+        try
+        {
+            var reserva = new Reserva
+            {
+                ClienteId = reservaDto.ClienteId,
+                ViagemId = reservaDto.ViagemId,
+                DataReserva = reservaDto.DataReserva,
+                StatusPagamento = reservaDto.StatusPagamento,
+                MetodoPagamento = reservaDto.MetodoPagamento
+            };
+
+            _repository.AddAsync(reserva); 
+            
+            var reservaDto2 = new ReservaDTO
+            {
+                ReservaId = reserva.ReservaId,
+                ViagemId = reserva.ViagemId,
+                DataReserva = reserva.DataReserva,
+                StatusPagamento = reserva.StatusPagamento,
+                MetodoPagamento = reserva.MetodoPagamento,
+                ClienteId = reserva.ClienteId
+            };
+
+            return CreatedAtAction(nameof(GetById), new { id = reserva.ReservaId }, reservaDto);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao criar reserva: {ex.Message}");
+        }
     }
 
     [HttpPut("{id}")]
-    public async Task<ActionResult> Update(int id, Reserva reserva)
+    public async Task<ActionResult> Update(int id, ReservaDTO reservaDto)
     {
-        if (id != reserva.ReservaId) return BadRequest();
+        if (id != reservaDto.ReservaId) return BadRequest("ID da reserva não corresponde.");
+
+        var reserva = new Reserva
+        {
+            ReservaId = reservaDto.ReservaId,
+            ClienteId = reservaDto.ClienteId,
+            ViagemId = reservaDto.ViagemId,
+            DataReserva = reservaDto.DataReserva,
+            StatusPagamento = reservaDto.StatusPagamento,
+            MetodoPagamento = reservaDto.MetodoPagamento
+        };
+
         await _repository.UpdateAsync(reserva);
         return NoContent();
     }
