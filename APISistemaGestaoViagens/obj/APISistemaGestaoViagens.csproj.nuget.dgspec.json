@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thalison.ribeiro\\Desktop\\APISistemaGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj": {}
+    "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thalison.ribeiro\\Desktop\\APISistemaGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj": {
+    "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thalison.ribeiro\\Desktop\\APISistemaGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
+        "projectUniqueName": "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
         "projectName": "APISistemaGestaoViagens",
-        "projectPath": "C:\\Users\\thalison.ribeiro\\Desktop\\APISistemaGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
-        "packagesPath": "C:\\Users\\thalison.ribeiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thalison.ribeiro\\Desktop\\APISistemaGestaoViagens\\APISistemaGestaoViagens\\obj\\",
+        "projectPath": "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
+        "packagesPath": "C:\\Users\\Thalison\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\thalison.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Thalison\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\thalison.ribeiro\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Thalison\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

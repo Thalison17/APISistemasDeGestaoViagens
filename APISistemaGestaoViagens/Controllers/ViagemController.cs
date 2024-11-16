@@ -1,7 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using APISistemaGestaoViagens.Model.Entities;
 using APISistemaGestaoViagens.Model.DTOs;
 using APISistemaGestaoViagens.Repository.Interfaces;
@@ -25,11 +22,11 @@ public class ViagemController : ControllerBase
         var viagens = await _repository.GetAllAsync();
         var viagensDto = viagens.Select(v => new ViagemDTO
         {
-            ClienteId = v.ClienteId,
+            ViagemId = v.ViagemId,
             DestinoId = v.DestinoId,
             DataPartida = v.DataPartida,
-            DataRetorno = v.dataRetorno,
-            CustoTotal = v.CustoTotal,
+            DataRetorno = v.DataRetorno,
+            Status = v.Status
         });
         return Ok(viagensDto);
     }
@@ -42,50 +39,34 @@ public class ViagemController : ControllerBase
 
         var viagemDto = new ViagemDTO
         {
-            ClienteId = viagem.ClienteId,
+            ViagemId = viagem.ViagemId,
             DestinoId = viagem.DestinoId,
             DataPartida = viagem.DataPartida,
-            DataRetorno = viagem.dataRetorno,
-            CustoTotal = viagem.CustoTotal
+            DataRetorno = viagem.DataRetorno,
+            Status = viagem.Status
         };
 
         return Ok(viagemDto);
     }
 
-    [HttpPost]
-    public async Task<ActionResult> Create(ViagemDTO viagemDto)
-    {
-        var viagem = new Viagem
-        {
-            ClienteId = viagemDto.ClienteId,
-            DestinoId = viagemDto.DestinoId,
-            DataPartida = viagemDto.DataPartida,
-            dataRetorno = viagemDto.DataRetorno,
-            CustoTotal = viagemDto.CustoTotal
-        };
-
-        await _repository.AddAsync(viagem);
-        return CreatedAtAction(nameof(GetById), new { id = viagem.ViagemId }, viagem);
-    }
-
     [HttpPut("{id}")]
     public async Task<ActionResult> Update(int id, ViagemDTO viagemDto)
     {
-        if (id != viagemDto.ViagemId) return BadRequest("ID da viagem não corresponde.");
+        if (id != viagemDto.ViagemId) 
+            return BadRequest("ID da viagem não corresponde.");
 
-        var viagem = new Viagem
-        {
-            ViagemId = viagemDto.ViagemId,
-            ClienteId = viagemDto.ClienteId,
-            DestinoId = viagemDto.DestinoId,
-            DataPartida = viagemDto.DataPartida,
-            dataRetorno = viagemDto.DataRetorno,
-            CustoTotal = viagemDto.CustoTotal
-        };
+        var viagem = await _repository.GetByIdAsync(id);
+        if (viagem == null) 
+            return NotFound("Viagem não encontrada.");
+
+        viagem.Status = viagemDto.Status;
 
         await _repository.UpdateAsync(viagem);
+    
         return NoContent();
     }
+
+
 
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)

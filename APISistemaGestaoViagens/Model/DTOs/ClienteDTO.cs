@@ -7,4 +7,5 @@ public class ClienteDTO
     public string Email { get; set; }
     public string Telefone { get; set; }
     public string Cpf { get; set; }
+    public ICollection<ReservaDTO> Reservas { get; set; }
 }

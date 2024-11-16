@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using APISistemaGestaoViagens.Model.Entities;
 using APISistemaGestaoViagens.Repository.Interfaces;
 using APISistemaGestaoViagens.Model.DTOs;
@@ -29,7 +27,7 @@ public class DestinoController : ControllerBase
                 DestinoId = d.DestinoId,
                 Localizacao = d.Localizacao,
                 Pais = d.Pais,
-                PrecoPorDia = d.precoPorDia
+                PrecoPorDia = d.PrecoPorDia
             });
             return Ok(destinosDto);
         }
@@ -52,7 +50,7 @@ public class DestinoController : ControllerBase
                 DestinoId = destino.DestinoId,
                 Localizacao = destino.Localizacao,
                 Pais = destino.Pais,
-                PrecoPorDia = destino.precoPorDia
+                PrecoPorDia = destino.PrecoPorDia
             };
 
             return Ok(destinoDto);
@@ -71,12 +69,26 @@ public class DestinoController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<ActionResult> Update(int id, Destino destino)
+    public async Task<ActionResult> Update(int id, DestinoDTO destinoDto)
     {
-        if (id != destino.DestinoId) return BadRequest();
+        if (id != destinoDto.DestinoId)
+            return BadRequest("ID do destino não corresponde.");
+        
+        var destino = await _repository.GetByIdAsync(id);
+        if (destino == null)
+            return NotFound("Destino não encontrado.");
+        
+        if (destinoDto.PrecoPorDia <= 0)
+        {
+            return BadRequest("O preço por dia deve ser maior que zero.");
+        }
+        destino.PrecoPorDia = destinoDto.PrecoPorDia;
+        
         await _repository.UpdateAsync(destino);
+        
         return NoContent();
     }
+
 
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)

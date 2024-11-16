@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using APISistemaGestaoViagens.Model.Entities;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace APISistemaGestaoViagens.Data;
 
@@ -22,6 +24,10 @@ public class AppDbContext : DbContext
             .OnDelete(DeleteBehavior.Cascade);
 
         modelBuilder.Entity<Viagem>()
+            .Property(v => v.ViagemId)
+            .ValueGeneratedOnAdd();
+
+        modelBuilder.Entity<Viagem>()
             .HasOne(v => v.Destino)
             .WithMany()
             .HasForeignKey(v => v.DestinoId);
@@ -32,4 +38,12 @@ public class AppDbContext : DbContext
                 
         base.OnModelCreating(modelBuilder);
     }
+    
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder
+            .UseInMemoryDatabase("ViagensDb")
+            .ConfigureWarnings(warnings => warnings.Ignore(InMemoryEventId.TransactionIgnoredWarning));
+    }
+
 }

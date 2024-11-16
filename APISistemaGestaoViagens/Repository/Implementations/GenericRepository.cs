@@ -18,15 +18,35 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         _dbSet = _context.Set<T>();
     }
 
-    public async Task<IEnumerable<T>> GetAllAsync()
+    public async Task<IEnumerable<T>> GetAllAsync(
+        Func<IQueryable<T>, IQueryable<T>> include = null)
     {
-        return await _dbSet.ToListAsync();
+        IQueryable<T> query = _context.Set<T>();
+
+        if (include != null)
+            query = include(query);
+
+        return await query.ToListAsync();
     }
 
-    public async Task<T?> GetByIdAsync(int id)
+    public async Task<T> GetByIdAsync(
+        int id,
+        Func<IQueryable<T>, IQueryable<T>> include = null)
     {
-        return await _dbSet.FindAsync(id);
+        IQueryable<T> query = _context.Set<T>();
+
+        if (include != null)
+            query = include(query);
+        
+        var keyName = _context.Model.FindEntityType(typeof(T)).FindPrimaryKey().Properties
+            .FirstOrDefault()?.Name;
+
+        if (string.IsNullOrEmpty(keyName))
+            throw new InvalidOperationException("Chave primária não encontrada.");
+
+        return await query.FirstOrDefaultAsync(e => EF.Property<int>(e, keyName) == id);
     }
+
 
     public async Task AddAsync(T entity)
     {
