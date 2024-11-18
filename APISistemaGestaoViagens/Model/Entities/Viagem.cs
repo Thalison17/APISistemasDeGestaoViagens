@@ -7,7 +7,6 @@ public class Viagem
     public DateTime DataPartida { get; set; }
     public DateTime DataRetorno { get; set; }
     public string Status { get; set; } = "Pendente";
-    
     public Cliente Cliente { get; set; }
     public Destino Destino { get; set; }
 }
