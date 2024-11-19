@@ -14,15 +14,13 @@ namespace APISistemaGestaoViagens.Controllers
             _reportService = reportService;
         }
 
-        // Endpoint para obter o relatório de reservas por período
         [HttpGet("reservas-por-periodo")]
         public IActionResult GetReservasPorPeriodo()
         {
             var result = _reportService.ObterReservasPorPeriodo();
-            return Ok(result);  // Retorna os dados no formato JSON
+            return Ok(result);  
         }
 
-        // Endpoint para obter os destinos mais procurados
         [HttpGet("destinos-mais-procurados")]
         public IActionResult GetDestinosMaisProcurados()
         {
@@ -30,7 +28,6 @@ namespace APISistemaGestaoViagens.Controllers
             return Ok(result);
         }
 
-        // Endpoint para obter os clientes frequentes
         [HttpGet("clientes-frequentes")]
         public IActionResult GetClientesFrequentes()
         {
@@ -38,7 +35,6 @@ namespace APISistemaGestaoViagens.Controllers
             return Ok(result);
         }
 
-        // Endpoint para obter a receita por viagem
         [HttpGet("receita-por-viagem")]
         public IActionResult GetReceitaPorViagem()
         {
