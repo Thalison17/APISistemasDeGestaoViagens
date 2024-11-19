@@ -1,4 +1,4 @@
-using APISistemaGestaoViagens.Services;  // Importando o ReportService
+using APISistemaGestaoViagens.Services; 
 using Microsoft.AspNetCore.Mvc;
 
 namespace APISistemaGestaoViagens.Controllers
