@@ -13,7 +13,6 @@ public class AppDbContext : DbContext
     public DbSet<Destino> Destino { get; set; }
     public DbSet<Viagem> Viagem { get; set; }
     public DbSet<Reserva> Reservas { get; set; }
-    public DbSet<Pacote> Pacotes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

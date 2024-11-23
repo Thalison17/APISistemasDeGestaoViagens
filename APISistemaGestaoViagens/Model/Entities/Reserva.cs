@@ -11,6 +11,5 @@ public class Reserva
     public decimal CustoTotal { get; set; }
     public Cliente Cliente { get; set; }
     public Viagem Viagem { get; set; }
-    public int DestinoId { get; set; }
     public int DuracaoDias { get; set; }
 }

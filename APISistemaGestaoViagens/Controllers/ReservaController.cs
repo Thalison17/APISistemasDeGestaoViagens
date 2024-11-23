@@ -12,12 +12,12 @@ public class ReservaController : ControllerBase
 {
     private readonly IGenericRepository<Reserva> _reservaRepository;
     private readonly IGenericRepository<Viagem> _viagemRepository;
-    private readonly IDestinoRepository _destinoRepository;
+    private readonly IGenericRepository<Destino> _destinoRepository;
 
     public ReservaController(
         IGenericRepository<Reserva> reservaRepository,
         IGenericRepository<Viagem> viagemRepository,
-        IDestinoRepository destinoRepository)
+        IGenericRepository<Destino> destinoRepository)
     {
         _reservaRepository = reservaRepository;
         _viagemRepository = viagemRepository;
