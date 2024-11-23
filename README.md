@@ -67,7 +67,14 @@ O projeto não apenas beneficia os clientes, mas também resolve desafios espec�
 
 ### Backlog do projeto
 
-TABELA AQUI
+| ID  | História do Usuário                              | MoSCoW     | Importância | RoadMap        |
+| --- | ------------------------------------------------ | ---------- | ----------- | -------------- |
+| 1   | Como cliente, desejo reservar uma viagem online para evitar deslocamentos presenciais. | Must Have  | Alta        | Sprint 1       |
+| 2   | Como administrador, quero visualizar todas as reservas em um painel, para organizar o fluxo de trabalho. | Must Have  | Alta        | Sprint 1       |
+| 3   | Como cliente, quero poder cancelar minha reserva diretamente no sistema. | Should Have | Média       | Sprint 2       |
+| 4   | Como administrador, desejo receber notificações sobre reservas pendentes de pagamento. | Could Have | Baixa       | Sprint 3       |
+| 5   | Como cliente, gostaria de comprar pacotes de viagem contendo hospedagem e transporte. | Won’t Have | Baixa       | Futuro Planejado |
+
 
 ---
 
