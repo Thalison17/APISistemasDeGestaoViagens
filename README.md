@@ -92,9 +92,7 @@ Usado para testes e prototipagem com EF Core.
 
 ## Diagrama de projeto
 
-```mermaid
-classDiagram
-```
+![diagramaDeProjeto](https://github.com/user-attachments/assets/8e3f4255-8c62-4972-bd6c-e59562a5ed3c)
 
 ##  Diagrama de classes
 
