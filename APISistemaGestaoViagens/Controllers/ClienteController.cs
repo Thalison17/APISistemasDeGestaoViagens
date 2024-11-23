@@ -64,15 +64,35 @@ public class ClienteController : ControllerBase
     {
         try
         {
-            var cliente = await _clienteRepository.GetByIdAsync(id);
-            if (cliente == null) return NotFound("Cliente não encontrado.");
+            var cliente = await _clienteRepository.GetByIdWithReservasAsync(id);
 
+            if (cliente == null) 
+                return NotFound("Cliente não encontrado.");
+            
             var clienteDto = new ClienteDTO
             {
                 ClienteId = cliente.ClienteId,
                 Nome = cliente.Nome,
                 Email = cliente.Email,
-                Telefone = cliente.Telefone
+                Telefone = cliente.Telefone,
+                Cpf = cliente.Cpf,
+                Reservas = cliente.Reservas.Select(r => new ReservaDTO
+                {
+                    ReservaId = r.ReservaId,
+                    ViagemId = r.ViagemId,
+                    DataReserva = r.DataReserva,
+                    StatusPagamento = r.StatusPagamento,
+                    MetodoPagamento = r.MetodoPagamento,
+                    CustoTotal = r.CustoTotal,
+                    Viagem = r.Viagem == null ? null : new ViagemDTO
+                    {
+                        ViagemId = r.Viagem.ViagemId,
+                        DestinoId = r.Viagem.DestinoId,
+                        DataPartida = r.Viagem.DataPartida,
+                        DataRetorno = r.Viagem.DataRetorno,
+                        Status = r.Viagem.Status
+                    }
+                }).ToList()
             };
 
             return Ok(clienteDto);
@@ -82,6 +102,7 @@ public class ClienteController : ControllerBase
             return StatusCode(500, $"Erro ao obter cliente: {ex.Message}");
         }
     }
+
 
     [HttpPost]
     public async Task<ActionResult> Create(ClienteCreateDTO clienteCreateDto)

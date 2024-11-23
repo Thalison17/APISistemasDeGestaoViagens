@@ -12,7 +12,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseInMemoryDatabase("ViagensDb"));
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddScoped<IDestinoRepository, DestinoRepository>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<ReportService>(); 
 
@@ -113,49 +112,93 @@ using (var scope = app.Services.CreateScope())
     }
 
     if (!context.Reservas.Any())
+{
+    // Criando viagens únicas
+    var viagem1 = new Viagem
     {
-        context.Reservas.Add(new Reserva
-        {
-            ReservaId = 1,
-            ClienteId = 1,
-            DestinoId = 1, 
-            DataReserva = new DateTime(2024, 11, 10),
-            MetodoPagamento = "Cartão de Crédito",
-            DuracaoDias = 5 
-        });
+        ViagemId = 1,
+        DestinoId = 1,
+        DataPartida = new DateTime(2024, 11, 15),
+        DataRetorno = new DateTime(2024, 11, 20),
+        Status = "Pendente"
+    };
 
-        context.Reservas.Add(new Reserva
-        {
-            ReservaId = 2,
-            ClienteId = 2,
-            DestinoId = 2, 
-            DataReserva = new DateTime(2024, 11, 12),
-            MetodoPagamento = "Boleto",
-            DuracaoDias = 3
-        });
+    var viagem2 = new Viagem
+    {
+        ViagemId = 2,
+        DestinoId = 1,
+        DataPartida = new DateTime(2024, 11, 20),
+        DataRetorno = new DateTime(2024, 11, 23),
+        Status = "Pendente"
+    };
 
-        context.Reservas.Add(new Reserva
-        {
-            ReservaId = 3,
-            ClienteId = 3,
-            DestinoId = 3, 
-            DataReserva = new DateTime(2024, 11, 15),
-            MetodoPagamento = "Cartão de Crédito",
-            DuracaoDias = 7
-        });
+    var viagem3 = new Viagem
+    {
+        ViagemId = 3,
+        DestinoId = 1,
+        DataPartida = new DateTime(2024, 12, 01),
+        DataRetorno = new DateTime(2024, 12, 07),
+        Status = "Pendente"
+    };
 
-        context.Reservas.Add(new Reserva
-        {
-            ReservaId = 4,
-            ClienteId = 4,
-            DestinoId = 4, 
-            DataReserva = new DateTime(2024, 11, 18),
-            MetodoPagamento = "Transferência Bancária",
-            DuracaoDias = 10
-        });
+    var viagem4 = new Viagem
+    {
+        ViagemId = 4,
+        DestinoId = 1,
+        DataPartida = new DateTime(2024, 12, 10),
+        DataRetorno = new DateTime(2024, 12, 17),
+        Status = "Pendente"
+    };
+    
+    context.Viagem.AddRange(viagem1, viagem2, viagem3, viagem4);
+    
+    context.Reservas.Add(new Reserva
+    {
+        ReservaId = 1,
+        ClienteId = 1,
+        DataReserva = new DateTime(2024, 11, 10),
+        MetodoPagamento = "Cartão de Crédito",
+        StatusPagamento = "Pendente",
+        CustoTotal = 1000,
+        Viagem = viagem1
+    });
 
-        context.SaveChanges();
-    }
+    context.Reservas.Add(new Reserva
+    {
+        ReservaId = 2,
+        ClienteId = 2,
+        DataReserva = new DateTime(2024, 11, 12),
+        MetodoPagamento = "Boleto",
+        StatusPagamento = "Pendente",
+        CustoTotal = 600,
+        Viagem = viagem2
+    });
+
+    context.Reservas.Add(new Reserva
+    {
+        ReservaId = 3,
+        ClienteId = 3,
+        DataReserva = new DateTime(2024, 11, 15),
+        MetodoPagamento = "Cartão de Crédito",
+        StatusPagamento = "Pendente",
+        CustoTotal = 1400,
+        Viagem = viagem3
+    });
+
+    context.Reservas.Add(new Reserva
+    {
+        ReservaId = 4,
+        ClienteId = 4,
+        DataReserva = new DateTime(2024, 11, 18),
+        MetodoPagamento = "Transferência Bancária",
+        StatusPagamento = "Pendente",
+        CustoTotal = 3400,
+        Viagem = viagem4
+    });
+
+    context.SaveChanges();
+}
+
 }
 
 if (app.Environment.IsDevelopment())
