@@ -62,11 +62,27 @@ public class DestinoController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> Create(Destino destino)
+    public async Task<ActionResult<DestinoDTO>> Create(DestinoCreateDTO destinoDto)
     {
-        await _repository.AddAsync(destino);
-        return CreatedAtAction(nameof(GetById), new { id = destino.DestinoId }, destino);
+        try
+        {
+            var destino = new Destino
+            {
+                Localizacao = destinoDto.Localizacao,
+                Pais = destinoDto.Pais,
+                PrecoPorDia = destinoDto.PrecoPorDia
+            };
+
+            await _repository.AddAsync(destino);
+            
+            return CreatedAtAction(nameof(GetById), new { id = destino.DestinoId }, destino);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao criar destino: {ex.Message}");
+        }
     }
+
 
     [HttpPut("{id}")]
     public async Task<ActionResult> Update(int id, DestinoDTO destinoDto)

@@ -66,8 +66,6 @@ public class ViagemController : ControllerBase
         return NoContent();
     }
 
-
-
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)
     {
