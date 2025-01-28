@@ -5,6 +5,7 @@ using APISistemaGestaoViagens.Repository.Interfaces;
 using APISistemaGestaoViagens.Repository.Implementations;
 using APISistemaGestaoViagens.Data;
 using APISistemaGestaoViagens.Services;
+using APISistemaGestaoViagens.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<ReportService>(); 
 
 builder.Services.AddControllers();
@@ -206,6 +208,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseHttpsRedirection();
 app.MapControllers();

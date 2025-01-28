@@ -2,6 +2,7 @@
 using APISistemaGestaoViagens.Model.Entities;
 using APISistemaGestaoViagens.Repository.Interfaces;
 using APISistemaGestaoViagens.Model.DTOs;
+using APISistemaGestaoViagens.Services.Interfaces;
 
 namespace APISistemaGestaoViagens.Controllers;
 
@@ -9,11 +10,11 @@ namespace APISistemaGestaoViagens.Controllers;
 [ApiController]
 public class ClienteController : ControllerBase
 {
-    private readonly IClienteRepository _clienteRepository;
+    private readonly IClienteRepository _clienteService;
 
-    public ClienteController(IClienteRepository clienteRepository)
+    public ClienteController(IClienteRepository clienteService)
     {
-        _clienteRepository = clienteRepository;
+        _clienteService = clienteService;
     }
 
 
@@ -22,7 +23,7 @@ public class ClienteController : ControllerBase
     {
         try
         {
-            var clientes = await _clienteRepository.GetAllWithReservasAsync();
+            var clientes = await _clienteService.GetAllWithReservasAsync();
 
             var clientesDto = clientes.Select(c => new ClienteDTO
             {
@@ -64,7 +65,7 @@ public class ClienteController : ControllerBase
     {
         try
         {
-            var cliente = await _clienteRepository.GetByIdWithReservasAsync(id);
+            var cliente = await _clienteService.GetByIdWithReservasAsync(id);
 
             if (cliente == null) 
                 return NotFound("Cliente não encontrado.");
@@ -117,7 +118,7 @@ public class ClienteController : ControllerBase
                 Cpf = clienteCreateDto.Cpf
             };
 
-            await _clienteRepository.AddAsync(cliente);
+            await _clienteService.AddAsync(cliente);
             return CreatedAtAction(nameof(GetById), new { id = cliente.ClienteId }, cliente);
         }
         catch (Exception ex)
@@ -130,16 +131,16 @@ public class ClienteController : ControllerBase
     public async Task<ActionResult> Update(int id, Cliente cliente)
     {
         if (id != cliente.ClienteId) return BadRequest("ID do cliente não corresponde.");
-        var existingCliente = await _clienteRepository.GetByIdAsync(id);
+        var existingCliente = await _clienteService.GetByIdAsync(id);
         if (existingCliente == null) return NotFound("Cliente não encontrado.");
-        await _clienteRepository.UpdateAsync(cliente);
+        await _clienteService.UpdateAsync(cliente);
         return NoContent();
     }
 
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)
     {
-        await _clienteRepository.DeleteAsync(id);
+        await _clienteService.DeleteAsync(id);
         return NoContent();
     }
 }

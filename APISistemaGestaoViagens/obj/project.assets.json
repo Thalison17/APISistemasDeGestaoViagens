@@ -1077,20 +1077,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thalison\\.nuget\\packages\\": {}
+    "C:\\Users\\20212bsi0413\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
+      "projectUniqueName": "C:\\Users\\20212bsi0413\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
       "projectName": "APISistemaGestaoViagens",
-      "projectPath": "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
-      "packagesPath": "C:\\Users\\Thalison\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thalison\\Desktop\\APISistemasDeGestaoViagens\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\obj\\",
+      "projectPath": "C:\\Users\\20212bsi0413\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\APISistemaGestaoViagens.csproj",
+      "packagesPath": "C:\\Users\\20212bsi0413\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20212bsi0413\\APISistemasDeGestaoViagens\\APISistemaGestaoViagens\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\Thalison\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\20212bsi0413\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1155,7 +1154,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Thalison\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\20212bsi0413\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
