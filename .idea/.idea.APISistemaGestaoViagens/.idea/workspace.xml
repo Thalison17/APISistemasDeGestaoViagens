@@ -10,13 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0d4a7f-0828-4e0a-8c05-ad59570f4938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Middleware/ExceptionHandlingMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/ClienteService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Interfaces/IClienteService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Model/DTOs/ClienteUpdateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Implementations/DestinoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Implementations/ReservaService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Implementations/ViagemService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Interfaces/IDestinoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Interfaces/IReservaService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Interfaces/IViagemService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APISistemaGestaoViagens/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APISistemaGestaoViagens/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/ClienteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/ClienteController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Model/DTOs/ClienteCreateDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Model/DTOs/ClienteCreateDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/DestinoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/DestinoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/ReservaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/ReservaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/ViagemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Controllers/ViagemController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/ClienteService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Implementations/ClienteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/ReportService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/Services/Implementations/ReportService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/bin/Debug/net8.0/APISistemaGestaoViagens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/bin/Debug/net8.0/APISistemaGestaoViagens.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/bin/Debug/net8.0/APISistemaGestaoViagens.exe" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/bin/Debug/net8.0/APISistemaGestaoViagens.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APISistemaGestaoViagens/bin/Debug/net8.0/APISistemaGestaoViagens.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APISistemaGestaoViagens/bin/Debug/net8.0/APISistemaGestaoViagens.pdb" afterDir="false" />
@@ -139,6 +147,8 @@
       <workItem from="1731444614636" duration="3624000" />
       <workItem from="1731697096117" duration="5720000" />
       <workItem from="1738069212639" duration="2628000" />
+      <workItem from="1738075973281" duration="5151000" />
+      <workItem from="1738086384207" duration="3071000" />
     </task>
     <servers />
   </component>

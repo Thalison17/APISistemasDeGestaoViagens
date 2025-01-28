@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using APISistemaGestaoViagens.Model.Entities;
-using APISistemaGestaoViagens.Repository.Interfaces;
 using APISistemaGestaoViagens.Model.DTOs;
+using APISistemaGestaoViagens.Services.Interfaces;
 
 namespace APISistemaGestaoViagens.Controllers;
 
@@ -9,11 +8,11 @@ namespace APISistemaGestaoViagens.Controllers;
 [ApiController]
 public class DestinoController : ControllerBase
 {
-    private readonly IGenericRepository<Destino> _repository;
+    private readonly IDestinoService _destinoService;
 
-    public DestinoController(IGenericRepository<Destino> repository)
+    public DestinoController(IDestinoService destinoService)
     {
-        _repository = repository;
+        _destinoService = destinoService;
     }
 
     [HttpGet]
@@ -21,15 +20,8 @@ public class DestinoController : ControllerBase
     {
         try
         {
-            var destinos = await _repository.GetAllAsync();
-            var destinosDto = destinos.Select(d => new DestinoDTO
-            {
-                DestinoId = d.DestinoId,
-                Localizacao = d.Localizacao,
-                Pais = d.Pais,
-                PrecoPorDia = d.PrecoPorDia
-            });
-            return Ok(destinosDto);
+            var destinos = await _destinoService.GetAllAsync();
+            return Ok(destinos);
         }
         catch (Exception ex)
         {
@@ -42,18 +34,10 @@ public class DestinoController : ControllerBase
     {
         try
         {
-            var destino = await _repository.GetByIdAsync(id);
+            var destino = await _destinoService.GetByIdAsync(id);
             if (destino == null) return NotFound("Destino não encontrado.");
 
-            var destinoDto = new DestinoDTO
-            {
-                DestinoId = destino.DestinoId,
-                Localizacao = destino.Localizacao,
-                Pais = destino.Pais,
-                PrecoPorDia = destino.PrecoPorDia
-            };
-
-            return Ok(destinoDto);
+            return Ok(destino);
         }
         catch (Exception ex)
         {
@@ -66,15 +50,7 @@ public class DestinoController : ControllerBase
     {
         try
         {
-            var destino = new Destino
-            {
-                Localizacao = destinoDto.Localizacao,
-                Pais = destinoDto.Pais,
-                PrecoPorDia = destinoDto.PrecoPorDia
-            };
-
-            await _repository.AddAsync(destino);
-            
+            var destino = await _destinoService.CreateAsync(destinoDto);
             return CreatedAtAction(nameof(GetById), new { id = destino.DestinoId }, destino);
         }
         catch (Exception ex)
@@ -83,33 +59,35 @@ public class DestinoController : ControllerBase
         }
     }
 
-
     [HttpPut("{id}")]
     public async Task<ActionResult> Update(int id, DestinoDTO destinoDto)
     {
-        if (id != destinoDto.DestinoId)
-            return BadRequest("ID do destino não corresponde.");
-        
-        var destino = await _repository.GetByIdAsync(id);
-        if (destino == null)
-            return NotFound("Destino não encontrado.");
-        
-        if (destinoDto.PrecoPorDia <= 0)
+        try
         {
-            return BadRequest("O preço por dia deve ser maior que zero.");
-        }
-        destino.PrecoPorDia = destinoDto.PrecoPorDia;
-        
-        await _repository.UpdateAsync(destino);
-        
-        return NoContent();
-    }
+            var updated = await _destinoService.UpdateAsync(id, destinoDto);
+            if (!updated) return NotFound("Destino não encontrado.");
 
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao atualizar destino: {ex.Message}");
+        }
+    }
 
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)
     {
-        await _repository.DeleteAsync(id);
-        return NoContent();
+        try
+        {
+            var deleted = await _destinoService.DeleteAsync(id);
+            if (!deleted) return NotFound("Destino não encontrado.");
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao deletar destino: {ex.Message}");
+        }
     }
 }

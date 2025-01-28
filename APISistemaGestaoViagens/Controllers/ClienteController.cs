@@ -128,14 +128,31 @@ public class ClienteController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<ActionResult> Update(int id, Cliente cliente)
+    public async Task<ActionResult> Update(int id, ClienteUpdateDTO clienteUpdateDto)
     {
-        if (id != cliente.ClienteId) return BadRequest("ID do cliente não corresponde.");
-        var existingCliente = await _clienteService.GetByIdAsync(id);
-        if (existingCliente == null) return NotFound("Cliente não encontrado.");
-        await _clienteService.UpdateAsync(cliente);
-        return NoContent();
+        try
+        {
+            var existingCliente = await _clienteService.GetByIdAsync(id);
+
+            if (existingCliente == null)
+                return NotFound("Cliente não encontrado.");
+
+            // Atualizar apenas os campos recebidos no DTO
+            existingCliente.Nome = clienteUpdateDto.Nome;
+            existingCliente.Email = clienteUpdateDto.Email;
+            existingCliente.Telefone = clienteUpdateDto.Telefone;
+            existingCliente.Cpf = clienteUpdateDto.Cpf;
+
+            await _clienteService.UpdateAsync(existingCliente);
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao atualizar cliente: {ex.Message}");
+        }
     }
+
 
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)

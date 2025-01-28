@@ -3,6 +3,7 @@ using APISistemaGestaoViagens.Model.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace APISistemaGestaoViagens.Services
+
 {
     public class ReportService
     {

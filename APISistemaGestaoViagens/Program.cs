@@ -15,6 +15,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
+builder.Services.AddScoped<IDestinoService, DestinoService>();
+builder.Services.AddScoped<IReservaService, ReservaService>();
+builder.Services.AddScoped<IViagemService, ViagemService>();
 builder.Services.AddScoped<ReportService>(); 
 
 builder.Services.AddControllers();
