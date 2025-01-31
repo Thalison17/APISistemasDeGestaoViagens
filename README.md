@@ -10,7 +10,7 @@ Este projeto é uma Minimal API em C# para gerenciamento de reservas de viagem d
 
 ## Diagrama de Pacotes da Arquitetura MVC
 
-![diagramaDeProjeto](https://github.com/user-attachments/assets/8e3f4255-8c62-4972-bd6c-e59562a5ed3c)
+![diagramaDeProjeto](https://github.com/user-attachments/assets/117eb7a8-a5e5-4acc-b3f4-85024c683653)
 
 ##  Diagrama de classes por Camadas
 
@@ -18,37 +18,43 @@ Este projeto é uma Minimal API em C# para gerenciamento de reservas de viagem d
 
 ```mermaid
 classDiagram
-    ClienteController --> IClienteRepository
-    DestinoController --> IGenericRepository
-    ReservaController --> IGenericRepository
-    ViagemController --> IGenericRepository
+    ClienteController --> IClienteService
+    DestinoController --> IDestinoService
+    ReservaController --> IReservaService
+    ViagemController --> IViagemService
+    RelatorioController --> IReportService
+    IClienteService --> IClienteRepository
+    IDestinoService --> IGenericRepository
+    IReservaService --> IGenericRepository
+    IViagemService --> IGenericRepository
     ClienteController ..> ClienteDTO : uses
     ClienteController ..> ClienteCreateDTO : uses
+    ClienteController ..> ClienteUpdateDTO : uses
     DestinoController ..> DestinoDTO : uses
     DestinoController ..> DestinoCreateDTO : uses
     ReservaController ..> ReservaDTO : uses
     ReservaController ..> ReservaCreateDTO : uses
     ViagemController ..> ViagemDTO : uses
-    RelatorioController ..> ReportService : uses
     ClienteDTO --> Cliente : maps to
     ClienteCreateDTO --> Cliente : maps to
+    ClienteUpdateDTO --> Cliente : maps to
     DestinoDTO --> Destino : maps to
     DestinoCreateDTO --> Destino : maps to
     ReservaDTO --> Reserva : maps to
     ReservaCreateDTO --> Reserva : maps to
     ViagemDTO --> Viagem : maps to
 
-class ClienteController {
-        - IClienteRepository _clienteRepository
+    class ClienteController {
+        - IClienteService _clienteService
         + GetAll() Task<ActionResult<IEnumerable<ClienteDTO>>>
         + GetById(int) Task<ActionResult<ClienteDTO>>
         + Create(ClienteCreateDTO) Task<ActionResult>
-        + Update(int, Cliente)
+        + Update(int, ClienteUpdateDTO) Task<ActionResult>
         + Delete(int) Task<ActionResult>
     }
 
     class DestinoController {
-        - IGenericRepository<Destino> _repository
+        - IDestinoService _destinoService
         + GetAll() Task<ActionResult<IEnumerable<DestinoDTO>>>
         + GetById(int) Task<ActionResult<DestinoDTO>>
         + Create(Destino) Task<ActionResult>
@@ -56,17 +62,8 @@ class ClienteController {
         + Delete(int) Task<ActionResult>
     }
 
-    class RelatorioController {
-        - ReportService _reportService
-        + GetReservasPorPeriodo() IActionResult
-        + GetDestinosMaisProcurados() IActionResult
-        + GetClientesFrequentes() IActionResult
-        + GetReceitaPorViagem() IActionResult
-    }
-
     class ReservaController {
-        - IGenericRepository<Reserva> _reservaRepository
-        - IGenericRepository<Viagem> _viagemRepository
+        - IReservaService _reservaService
         + GetAll() Task<ActionResult<IEnumerable<ReservaDTO>>>
         + GetById(int) Task<ActionResult<ReservaDTO>>
         + Create([FromBody] ReservaCreateDTO) Task<ActionResult>
@@ -75,11 +72,62 @@ class ClienteController {
     }
 
     class ViagemController {
-        - IGenericRepository<Viagem> _repository
+        - IViagemService _viagemService
         + GetAll() Task<ActionResult<IEnumerable<ViagemDTO>>>
         + GetById(int) Task<ActionResult<ViagemDTO>>
         + Update(int, ViagemDTO) Task<ActionResult>
         + Delete(int) Task<ActionResult>
+    }
+
+    class RelatorioController {
+        - IReportService _reportService
+        + GetReservasPorPeriodo() IActionResult
+        + GetDestinosMaisProcurados() IActionResult
+        + GetClientesFrequentes() IActionResult
+        + GetReceitaPorViagem() IActionResult
+    }
+
+    class IClienteService {
+        <<interface>>
+        + GetAll() Task<IEnumerable<ClienteDTO>>
+        + GetById(int) Task<ClienteDTO>
+        + Create(ClienteCreateDTO) Task
+        + Update(int, ClienteUpdateDTO) Task
+        + Delete(int) Task
+    }
+
+    class IDestinoService {
+        <<interface>>
+        + GetAll() Task<IEnumerable<DestinoDTO>>
+        + GetById(int) Task<DestinoDTO>
+        + Create(DestinoCreateDTO) Task
+        + Update(int, DestinoDTO) Task
+        + Delete(int) Task
+    }
+
+    class IReservaService {
+        <<interface>>
+        + GetAll() Task<IEnumerable<ReservaDTO>>
+        + GetById(int) Task<ReservaDTO>
+        + Create(ReservaCreateDTO) Task
+        + Update(int, ReservaDTO) Task
+        + Delete(int) Task
+    }
+
+    class IViagemService {
+        <<interface>>
+        + GetAll() Task<IEnumerable<ViagemDTO>>
+        + GetById(int) Task<ViagemDTO>
+        + Update(int, ViagemDTO) Task
+        + Delete(int) Task
+    }
+
+    class IReportService {
+        <<interface>>
+        + ObterReservasPorPeriodo() Task<IEnumerable<string>>
+        + ObterDestinosMaisProcurados() Task<IEnumerable<string>>
+        + ObterClientesFrequentes() Task<IEnumerable<string>>
+        + ObterReceitaPorViagem() Task<IEnumerable<string>>
     }
 
     class ClienteDTO {
@@ -94,7 +142,14 @@ class ClienteController {
     class ClienteCreateDTO {
         + string Nome
         + string Email
-        + decimal Telefone
+        + string Telefone
+        + string Cpf
+    }
+
+    class ClienteUpdateDTO {
+        + string Nome
+        + string Email
+        + string Telefone
         + string Cpf
     }
 
@@ -135,14 +190,6 @@ class ClienteController {
         + DateTime DataRetorno
         + string Status
     }
-
-    class ReportService {
-            -AppDbContext _context
-            +ObterReservasPorPeriodo() IEnumerable<string>
-            +ObterDestinosMaisProcurados() IEnumerable<string>
-            +ObterClientesFrequentes() IEnumerable<string>
-            +ObterReceitaPorViagem() IEnumerable<string>
-        }
 ```
 
 
@@ -256,7 +303,8 @@ class ClienteRepository {
 ```shell
 📂 ProjetoRaiz 
   ├── 📂 Controllers # Mapeamento dos endpoints para CRUD
-  ├── 📂 Data # Classe AppDbContext que mapeia as Classes de Model para o Banco de dados em memória 
+  ├── 📂 Data # Classe AppDbContext que mapeia as Classes de Model para o Banco de dados em memória
+  ├── 📂 Middleware # Tratamento de exceções
   ├── 📂 Models # Classes que representam as entidades (Cliente, Destino, Reserva, Viagem)
   ├── 📂 Repository # Lógica de acesso ao banco de dados e manipulação direta das entidades
   ├── 📂 Services # Implementação das regras de negócio e processamento dos dados.
