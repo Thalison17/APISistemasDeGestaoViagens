@@ -1,0 +1,6 @@
+@APISistemaGestaoViagens_HostAddress = http://localhost:5201
+
+GET {{APISistemaGestaoViagens_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,275 @@
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.exe
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.deps.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.runtimeconfig.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.AssemblyReference.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfoInputs.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfo.cs
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.CoreCompileInputs.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.sourcelink.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.APISistemaGestaoViagens.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.build.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\scopedcss\bundle\APISistemaGestaoViagens.styles.css
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISiste.05065188.Up2Date
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\refint\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.genruntimeconfig.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemaGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\ref\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.exe
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.deps.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.runtimeconfig.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.AssemblyReference.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfoInputs.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfo.cs
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.CoreCompileInputs.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.sourcelink.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.APISistemaGestaoViagens.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.build.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\scopedcss\bundle\APISistemaGestaoViagens.styles.css
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISiste.05065188.Up2Date
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\refint\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.genruntimeconfig.cache
+C:\Users\thalison.ribeiro\Desktop\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\ref\APISistemaGestaoViagens.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.exe
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.deps.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.runtimeconfig.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.AssemblyReference.cache
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfoInputs.cache
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfo.cs
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.CoreCompileInputs.cache
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.sourcelink.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.APISistemaGestaoViagens.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.build.APISistemaGestaoViagens.props
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APISistemaGestaoViagens.props
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APISistemaGestaoViagens.props
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\scopedcss\bundle\APISistemaGestaoViagens.styles.css
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISiste.05065188.Up2Date
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\refint\APISistemaGestaoViagens.dll
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.genruntimeconfig.cache
+C:\Users\Thalison\Desktop\APISistemasDeGestaoViagens\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\ref\APISistemaGestaoViagens.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.exe
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.deps.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.runtimeconfig.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.AssemblyReference.cache
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfoInputs.cache
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfo.cs
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.CoreCompileInputs.cache
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.sourcelink.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.APISistemaGestaoViagens.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.build.APISistemaGestaoViagens.props
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APISistemaGestaoViagens.props
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APISistemaGestaoViagens.props
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\scopedcss\bundle\APISistemaGestaoViagens.styles.css
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISiste.05065188.Up2Date
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\refint\APISistemaGestaoViagens.dll
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.genruntimeconfig.cache
+C:\Users\20212bsi0413\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\ref\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.exe
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.deps.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.runtimeconfig.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.AssemblyReference.cache
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfoInputs.cache
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfo.cs
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.CoreCompileInputs.cache
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.sourcelink.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.APISistemaGestaoViagens.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.build.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APISistemaGestaoViagens.props
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\scopedcss\bundle\APISistemaGestaoViagens.styles.css
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISiste.05065188.Up2Date
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\refint\APISistemaGestaoViagens.dll
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.genruntimeconfig.cache
+C:\Users\thalison.ribeiro\APISistemasDeGestaoViagens\APISistemaGestaoViagens\obj\Debug\net8.0\ref\APISistemaGestaoViagens.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\appsettings.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.exe
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.deps.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.runtimeconfig.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.AssemblyReference.cache
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfoInputs.cache
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.AssemblyInfo.cs
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.csproj.CoreCompileInputs.cache
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.APISistemaGestaoViagens.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.build.APISistemaGestaoViagens.props
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APISistemaGestaoViagens.props
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APISistemaGestaoViagens.props
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\scopedcss\bundle\APISistemaGestaoViagens.styles.css
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISiste.05065188.Up2Date
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\refint\APISistemaGestaoViagens.dll
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.pdb
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\APISistemaGestaoViagens.genruntimeconfig.cache
+C:\Users\amara\Desktop\APISistemasDeGestaoViagens-main (5)\APISistemasDeGestaoViagens-main\APISistemaGestaoViagens\obj\Debug\net8.0\ref\APISistemaGestaoViagens.dll
